@@ -26,4 +26,4 @@ Demo: https://i5aledzeid.github.io/i5aledzeid/
 
 ![image](https://user-images.githubusercontent.com/107222642/180599603-10da5e48-bb05-44ca-be09-f36092653fff.png)
 
-All rights reserved by Khaled Zeid 2022
+All rights reserved by Khaled Zeid © 2022
