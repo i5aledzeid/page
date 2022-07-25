@@ -1,0 +1,22 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar {
+    background: rgb(0, green, 0);
+    text-align: center;
+}
+.active {
+    background: #2bab0d;
+
+}
+.sub-menu-1 {
+    display: none;
+}
