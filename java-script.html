@@ -101,57 +101,6 @@
                             The site is always updated to ensure better service and there is also an update of
                             all codes. We also provide online lessons and available learning materials.</h1>
                     </div>
-                    <div class="ageContainer">
-                        <form>
-                            <div class="base">
-                                <h4>Age Calculator</h4>
-                            </div>
-                            <div class="block">
-                                <p class="title">Date</p>
-                                <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2"
-                                    required>
-                            </div>
-                            <div class="block">
-                                <p class="title">Month</p>
-                                <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2"
-                                    required>
-                            </div>
-                            <div class="block">
-                                <p class="title">Year</p>
-                                <input type="text" name="year" id="year" placeholder="yyyy" minlength="4" maxlength="4"
-                                    required>
-                            </div>
-                            <div class="base">
-                                <input type="button" name="submit" value="submit" onclick="age()" />
-                            </div>
-                            <div class="age" id="age"></div>
-                        </form>
-                    </div>
-                    <p>> This is the first javascript age counter app</p>
-                    <!-- <script type="javascript">
-                        function age() {
-                            var d = document.getElementById('date').value;
-                            var m = document.getElementById('month').value;
-                            var y = document.getElementById('year').value;
-                            var date = new Date();
-                            var d2 = date.getDate();
-                            var m2 = 1 + date.getMonth();
-                            var y2 = date.getYear();
-                            var month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-                            if (d > d2) {
-                                d2 = d2 + month[m2 - 1];
-                                m2 = m2 - 1;
-                            }
-                            if (m > m2) {
-                                m2 = m2 - d;
-                                y2 = y2 - y;
-                            }
-                            var thisDay = d2 - d;
-                            var thisMonth = m2 - m;
-                            var thisYear = y2 - y;
-                            document.getElementById('age').innerHTML = 'Age: YEAR (' + thisYear + ') MONTH (' + thisMonth + ') DAY (' + thisDay + ')';
-                        }
-                    </script> -->
                 </div>
 
             </div>
