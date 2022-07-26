@@ -2,8 +2,8 @@
 * {
     box-sizing: border-box;
 }
-.body-weather {
-    background: linear-gradient(300deg, #ced1d6, #bfc0c0);
+body {
+    /*background: linear-gradient(300deg, #ced1d6, #bfc0c0);*/
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
