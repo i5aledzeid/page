@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Example</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        Hello eveyone!
-        <a>phpMyAdmin Bringing MySQL to the web</a>
-        <a href="https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip">Download 5.2.0</a><br>
-        <!--
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    Hello eveyone!
+    <a>phpMyAdmin Bringing MySQL to the web</a>
+    <a href="https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip">Download 5.2.0</a><br>
+    <!--
             Your download should start soon, if not please click here.
                 Please verify the downloaded file
                 Please take additional steps to verify that the file you have downloaded is not corrupted, you can verify it using the following methods:
@@ -21,11 +23,29 @@
                 
                     We have also a sponsorship program for corporates who are willing to spent more money and get some benefits such as a logo placement in return.
         -->
-        <a href="https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true">Download (64 bit)</a>
-        <form action="connect.php" method="post">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="FirstName" />
+    <a
+        href="https://downloadsapachefriends.global.ssl.fastly.net/8.1.6/xampp-windows-x64-8.1.6-0-VS16-installer.exe?from_af=true">Download
+        (64 bit)</a>
+    <form action="connect.php" method="post">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" id="firstName" name="firstName" />
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" id="lastName" name="lastName" />
+        <label for="email">Gender</label>
+        <div>
+            <label for="male" class="radio-inline"><input type="radio" class="form-control" id="male" name="gender" value="" />Male</label>
+            <label for="female" class="radio-inline"><input type="radio" class="form-control" id="female" name="gender" value="" />Female</label>
+            <label for="male" class="radio-inline"><input type="radio" class="form-control" id="other" name="gender" value="" />Other</label>
+        </div>
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" name="email" />
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" />
+        <label for="number">Phone Number</label>
+        <input type="number" class="form-control" id="number" name="number" />
+        <input type="submit" class="button-primary"
+    </form>
+    <small>&copy; Technical Support</small>
+</body>
 
-        </form>
-    </body>
 </html>
