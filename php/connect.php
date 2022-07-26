@@ -12,7 +12,7 @@ if ($conn -> connect_error) {
     die('Connection Failed: '.$conn- connect_error);
 }
 else {
-    $stmt = $conn -> prepare("insert into Account(firstName, lastName, gender, email, password, number)
+    $stmt = $conn -> prepare("insert into account(firstName, lastName, gender, email, password, number)
         value(?, ?, ?, ?, ?, ?)");
     $stmt -> bind_param("sssssi", $firstName, $lastName, $gender, $email, $password, $number);
     $stmt -> execute();
