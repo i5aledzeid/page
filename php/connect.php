@@ -12,11 +12,10 @@ if ($conn -> connect_error) {
     die('Connection Failed: '.$conn- connect_error);
 }
 else {
-    $stmt = $conn -> prepare("insert into account(firstName, lastName, gender, email, password, number)
-        value(?, ?, ?, ?, ?, ?)");
+    $stmt = $conn -> prepare("insert into account(firstName, lastName, gender, email, password, number) values(?, ?, ?, ?, ?, ?)");
     $stmt -> bind_param("sssssi", $firstName, $lastName, $gender, $email, $password, $number);
     $stmt -> execute();
-    echo "register successfully..."
+    echo "register successfully...";
     $stmt -> close();
     $conn -> close();
 }
